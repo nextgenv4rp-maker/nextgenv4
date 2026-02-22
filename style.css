@@ -202,12 +202,13 @@ nav ul li a.active{
     color:#00aaff;
 }
 
-/* GRID - 4 OSZLOP */
+/* PREMIUM GRID ALAP (desktop 3 egymás mellett) */
 .vehicle-grid{
     display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
 }
+
 
 /* KÁRTYA */
 .vehicle-card{
@@ -587,7 +588,7 @@ nav{
 /* PREMIUM GRID ALAP (desktop 4 egymás mellett) */
 .vehicle-grid{
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap:30px;
 }
 

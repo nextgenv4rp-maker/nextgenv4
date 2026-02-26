@@ -217,6 +217,8 @@ nav ul li a.active{
     overflow:hidden;
     background:#1a1d24;
     transition:0.3s;
+    display:flex;
+    flex-direction:column;   /* fontos */
 }
 
 .vehicle-card:hover{
@@ -236,6 +238,10 @@ nav ul li a.active{
 .vehicle-info{
     background:#2a2e36;
     padding:20px;
+    height:180px;            
+    display:flex;
+ justify-content:center; 
+    text-align: center;     
 }
 
 .vehicle-info h2{
@@ -585,7 +591,7 @@ nav{
 }
 
 
-/* PREMIUM GRID ALAP (desktop 4 egymás mellett) */
+/* PREMIUM GRID ALAP (desktop 3 egymás mellett) */
 .vehicle-grid{
     display:grid;
     grid-template-columns: repeat(3, 1fr);

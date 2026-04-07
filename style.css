@@ -621,3 +621,17 @@ nav{
     padding: 2rem;
 }
 
+
+
+.special-cards{
+    grid-column: 1 / -1;      /* elfoglalja az egész sort */
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:10px;
+    flex-wrap:wrap;
+}
+
+.special-cards .vehicle-card{
+    width:350px;
+}
